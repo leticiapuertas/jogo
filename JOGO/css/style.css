@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ 
+html,body{
+    font-size:100%;
+    font-family:DejaVu Sans Mono, monospace;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-color: #7f79bd;
+    display: flex;
+}
+
+main img{
+    border-radius: 10%;
+    
+}
+nav > a{   
+    color:#000000;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+nav > a:hover{
+    color:#eeeeee75;
+    font-size: 2rem;
+}
+
+figure > img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    
+    
+}
+
+footer{
+    background-color: black;
+    color:#fff;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    align-items: center;
+}
+
+div{
+    align-items: center;
+    
+}
